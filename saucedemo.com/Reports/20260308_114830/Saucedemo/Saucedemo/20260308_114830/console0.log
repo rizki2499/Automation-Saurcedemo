@@ -1,0 +1,31 @@
+2026-03-08 11:49:17.943 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Rizki Putra\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-08 11:49:17.955 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Rizki Putra\Katalon Studio\saucedemo.com\Include\config\log.properties
+2026-03-08 11:49:20.546 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Saucedemo/Saucedemo
+2026-03-08 11:49:20.832 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Rizki Putra
+2026-03-08 11:49:20.837 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = saucedemo.com
+2026-03-08 11:49:20.840 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Rizki Putra - LAPTOP-RTGQUC0J
+2026-03-08 11:49:20.843 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-03-08 11:49:20.844 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.68
+2026-03-08 11:49:20.848 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-08 11:49:21.700 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-08 11:49:21.705 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Success
+2026-03-08 11:49:23.432 DEBUG testcase.Login Success                   - 1: openBrowser("")
+2026-03-08 11:49:24.532 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-08 11:49:24.709 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 08, 2026 11:49:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-08 11:49:30.023 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0e4728fe26470836e272acb4f45b4323
+2026-03-08 11:49:30.031 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-08 11:49:30.035 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-03-08 11:49:30.039 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-08 11:49:30.057 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-08 11:49:30.146 DEBUG testcase.Login Success                   - 2: navigateToUrl("https://www.saucedemo.com/")
+2026-03-08 11:49:30.824 DEBUG testcase.Login Success                   - 3: setText(findTestObject("Login Success/input_Username"), "standard_user")
+2026-03-08 11:49:32.487 DEBUG testcase.Login Success                   - 4: click(findTestObject("Login Success/input_Password"))
+2026-03-08 11:49:33.026 DEBUG testcase.Login Success                   - 5: setEncryptedText(findTestObject("Login Success/input_Password"), "qcu24s4901FyWDTwXGr6XA==")
+2026-03-08 11:49:33.571 DEBUG testcase.Login Success                   - 6: click(findTestObject("Login Success/input_login-button"))
+2026-03-08 11:49:34.266 DEBUG testcase.Login Success                   - 7: verifyElementPresent(findTestObject("Object Repository/Produk/Page_Swag Labs/span_Products"), 20)
+2026-03-08 11:49:34.684 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Success
+2026-03-08 11:49:35.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-08 11:49:35.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Saucedemo/Saucedemo
+2026-03-08 11:49:35.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

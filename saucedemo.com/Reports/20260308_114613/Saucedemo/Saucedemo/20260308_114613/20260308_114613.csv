@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Saucedemo,Chrome 145.0.7632.160,,,08-03-2026 11:46:38,08-03-2026 11:46:57,19.800s,PASSED
+,,,,,,,
+Test Cases/Login Failed,Chrome 145.0.7632.160,,,08-03-2026 11:46:38,08-03-2026 11:46:56,17.344s,PASSED
+"openBrowser("""")",Chrome 145.0.7632.160,,,08-03-2026 11:46:40,08-03-2026 11:46:49,8.919s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 145.0.7632.160,,,08-03-2026 11:46:49,08-03-2026 11:46:50,0.758s,PASSED
+"setText(findTestObject(""Login Failed/input_Username""), ""admin"")",Chrome 145.0.7632.160,,,08-03-2026 11:46:50,08-03-2026 11:46:52,2.121s,PASSED
+"click(findTestObject(""Login Failed/input_Password""))",Chrome 145.0.7632.160,,,08-03-2026 11:46:52,08-03-2026 11:46:53,0.888s,PASSED
+"setEncryptedText(findTestObject(""Login Failed/input_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 145.0.7632.160,,,08-03-2026 11:46:53,08-03-2026 11:46:54,0.727s,PASSED
+"click(findTestObject(""Login Failed/input_login-button""))",Chrome 145.0.7632.160,,,08-03-2026 11:46:54,08-03-2026 11:46:55,1.502s,PASSED
+"click(findTestObject(""Login Failed/h3_Epic sadface_ Username and password do not ma""))",Chrome 145.0.7632.160,,,08-03-2026 11:46:55,08-03-2026 11:46:56,0.603s,PASSED

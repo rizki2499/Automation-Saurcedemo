@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Saucedemo" time="18.055" tests="1" failures="0" errors="0">
+   <testsuite name="Saucedemo" tests="1" failures="0" errors="0" time="18.055" skipped="0" timestamp="2026-03-08T04:46:38.142Z" hostname="Rizki Putra - LAPTOP-RTGQUC0J" id="Test Suites/Saucedemo/Saucedemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Rizki Putra\\Katalon Studio\\saucedemo.com\\Reports\\20260308_114613\\Saucedemo\\Saucedemo\\20260308_114613"/>
+         <property name="logFiles" value="C:\\Users\\Rizki Putra\\Katalon Studio\\saucedemo.com\\Reports\\20260308_114613\\Saucedemo\\Saucedemo\\20260308_114613\\console0.log, C:\\Users\\Rizki Putra\\Katalon Studio\\saucedemo.com\\Reports\\20260308_114613\\Saucedemo\\Saucedemo\\20260308_114613\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Rizki Putra - LAPTOP-RTGQUC0J"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 145.0.7632.160"/>
+         <property name="userFullName" value="Rizki Putra"/>
+         <property name="hostAddress" value="192.168.100.68"/>
+         <property name="sessionId" value="3a1fcdfa4da8248e57347119e7a3fc2d"/>
+         <property name="projectName" value="saucedemo.com"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Failed" time="17.344" classname="Test Cases/Login Failed" status="PASSED">
+         <system-out><![CDATA[08-03-2026T11:46:38 - [TEST_CASE][PASSED] - Test Cases/Login Failed: Test Cases/Login Failed
+
+08-03-2026T11:46:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-03-2026T11:46:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-03-2026T11:46:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-03-2026T11:46:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-03-2026T11:46:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+08-03-2026T11:46:50 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+08-03-2026T11:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login Failed/input_Username"), "admin"): Text 'admin' is set on object 'Object Repository/Login Failed/input_Username'
+
+08-03-2026T11:46:52 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Failed/input_Username'
+
+08-03-2026T11:46:52 - [TEST_STEP][PASSED] - click(findTestObject("Login Failed/input_Password")): Object: 'Object Repository/Login Failed/input_Password' is clicked on
+
+08-03-2026T11:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Failed/input_Password' is clicked on
+
+08-03-2026T11:46:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Failed/input_Password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Login Failed/input_Password'
+
+08-03-2026T11:46:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Failed/input_Password'
+
+08-03-2026T11:46:54 - [TEST_STEP][PASSED] - click(findTestObject("Login Failed/input_login-button")): Object: 'Object Repository/Login Failed/input_login-button' is clicked on
+
+08-03-2026T11:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Failed/input_login-button' is clicked on
+
+08-03-2026T11:46:55 - [TEST_STEP][PASSED] - click(findTestObject("Login Failed/h3_Epic sadface_ Username and password do not ma")): Object: 'Object Repository/Login Failed/h3_Epic sadface_ Username and password do not ma' is clicked on
+
+08-03-2026T11:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Failed/h3_Epic sadface_ Username and password do not ma' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-03-2026T11:46:38 - [TEST_SUITE][PASSED] - Saucedemo: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

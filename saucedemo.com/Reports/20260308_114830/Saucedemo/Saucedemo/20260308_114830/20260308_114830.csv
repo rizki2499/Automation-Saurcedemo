@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Saucedemo,Chrome 145.0.7632.160,,,08-03-2026 11:49:20,08-03-2026 11:49:35,14.421s,PASSED
+,,,,,,,
+Test Cases/Login Success,Chrome 145.0.7632.160,,,08-03-2026 11:49:21,08-03-2026 11:49:34,12.979s,PASSED
+"openBrowser("""")",Chrome 145.0.7632.160,,,08-03-2026 11:49:23,08-03-2026 11:49:30,6.711s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 145.0.7632.160,,,08-03-2026 11:49:30,08-03-2026 11:49:30,0.674s,PASSED
+"setText(findTestObject(""Login Success/input_Username""), ""standard_user"")",Chrome 145.0.7632.160,,,08-03-2026 11:49:30,08-03-2026 11:49:32,1.662s,PASSED
+"click(findTestObject(""Login Success/input_Password""))",Chrome 145.0.7632.160,,,08-03-2026 11:49:32,08-03-2026 11:49:33,0.537s,PASSED
+"setEncryptedText(findTestObject(""Login Success/input_Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 145.0.7632.160,,,08-03-2026 11:49:33,08-03-2026 11:49:33,0.544s,PASSED
+"click(findTestObject(""Login Success/input_login-button""))",Chrome 145.0.7632.160,,,08-03-2026 11:49:33,08-03-2026 11:49:34,0.695s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Produk/Page_Swag Labs/span_Products""), 20)",Chrome 145.0.7632.160,,,08-03-2026 11:49:34,08-03-2026 11:49:34,0.410s,PASSED
